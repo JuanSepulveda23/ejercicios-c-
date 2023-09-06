@@ -1,0 +1,14 @@
+#include <iostream>
+using namespace std;
+int main() {
+  float lb;
+  float kg;
+  float gr;
+  cout << "Introduzca un valor en libras ";
+  cin >> lb;
+  kg=lb/2.205;
+  gr=lb*453.6;
+  cout <<"El valor en kilogramos es: "<<kg <<endl;
+  cout <<"El valor en gramos es: "<<gr;
+  return 0;
+}
